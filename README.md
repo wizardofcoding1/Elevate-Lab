@@ -4,7 +4,7 @@ Intern In Elevate Labs
 
 A clean, modern, and fully responsive landing page built using **HTML5** and **CSS3**. This project demonstrates the fundamentals of web design, including Flexbox layouts, responsive navigation, and media queries.
 
-🔗 **[View Live Demo](#)** *(Add your GitHub Pages link here later!)*
+🔗 **[View Live Demo](#)** *(https://github.com/wizardofcoding1/Elevate-Lab))*
 
 ## 📖 About the Project
 
