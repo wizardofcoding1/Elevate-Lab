@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simple Responsive Landing Page</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            :root {
+                --primary-color: #2563eb;
+                --secondary-color: #f3f4f6;
+                --text-color: #333;
+                --font-family: "Arial", sans-serif;
+                --light-bg: f3f4f6;
+                --white: #ffffff;
+            }
+
+            body {
+                font-family: "Sege UI", Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 1.6;
+                color: var(--text-color);
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            header {
+                background-color: var(--white);
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+            }
+
+            .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .hero {
+            background-color: var(--light-bg);
+            height: 80vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: rgb(40, 40, 201);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .click-start {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            border: 1px solid var(--primary-color);
+            border-radius: 2rem;
+            color: #666;
+            padding: 12px 30px;
+            border-radius: 100px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .click-start:hover {
+            background-color: var(--primary-color);
+        }
+
+        footer {
+            background-color: #1f2937;
+            color: var(--white);
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .social-links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-links a {
+            color: #9ca3af;
+            font-size: 0.9rem;
+        }
+
+        .social-links a:hover {
+            color: var(--white);
+        }
+
+        
+        @media (max-width: 768px) {
+        
+            .navbar {
+                flex-direction: column;
+                height: auto;
+                padding: 15px 0;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 15px;
+                text-align: center;
+                width: 100%;
+            }
+
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <a href="#" class="logo">MyLogo</a>
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="classhero-content">
+                <h1>Build Your Future</h1>
+                <p>Experinece The Best Simple Landing Page Design</p>
+                <a href="#" class="click-start">Get Started</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 NEXSCO. All Rights Reserverd.</p>
+                <div class="social-media">
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebbok</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

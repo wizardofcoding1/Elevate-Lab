@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.todo-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#addBtn {
+    margin-left: 8px;
+    padding: 8px 12px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addBtn:hover {
+    background: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 6px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.editBtn {
+    background: #ffc107;
+    border: none;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.editBtn:hover {
+    background: #e0a800;
+}
+
+.doneBtn {
+    background: #28a745;
+    border: none;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.doneBtn:hover {
+    background: #218838;
+}
+
+.removeBtn {
+    background: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.removeBtn:hover {
+    background: #c82333;
+}
