@@ -17,8 +17,5 @@ This project replicates the mobile view of Amazon's homepage with horizontal scr
 - 🎯 Clean and modern UI
 - ⚡ Smooth scrolling experience
 
----
-
-## 📂 Project Structure
 
 
